@@ -70,7 +70,6 @@ class Motor_Grafico {
     }
     
     temp = null;
-    System.gc();
   }
   
   
