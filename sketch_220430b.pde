@@ -48,6 +48,7 @@ void draw(){
   if (motor.mov_mg) {
     motor.mov_mg = false;
     motor.reiniciar();
+    System.gc();
   }
 }
 
